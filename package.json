@@ -1,0 +1,21 @@
+{
+  "name": "checker-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "run": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "10.4.0",
+    "typescript": "4.5.2"
+  },
+  "dependencies": {
+    "@htmlacademy/checker": "1.0.5"
+  }
+}
